@@ -11,7 +11,7 @@ string answer3 = "green";
 int score = 0;
 Console.WriteLine(question1);
 string userAnswer=Console.ReadLine();
-if(userAnswer ==answer1)
+if(userAnswer.Trim() ==answer1)
 {
     Console.WriteLine("correct"+answer1);
     score = score+1;
@@ -22,7 +22,7 @@ else
 }
 Console.WriteLine(question2);
 string userAnswer2 = Console.ReadLine();
-if (userAnswer2 == amswer2)
+if (userAnswer2.Trim() == amswer2)
 {
     Console.WriteLine("correct" + amswer2);
     score = score + 1;
@@ -33,7 +33,7 @@ else
 }
 Console.WriteLine(question3);
 string userAnswer3 = Console.ReadLine();
-if (userAnswer3 == answer3)
+if (userAnswer3.Trim() == answer3)
 {
     Console.WriteLine("correct" + answer3);
     score = score + 1;
